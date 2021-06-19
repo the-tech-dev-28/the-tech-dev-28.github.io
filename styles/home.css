@@ -8,6 +8,99 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.header-section {
-    padding: 0px;
+
+/* navbar styling */
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px 0;
+}
+
+.nav-bar.sticky {
+    background: crimson;
+    padding: 15px 0;
+}
+
+.nav-bar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar .logo .a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.nav-bar .logo .a span {
+    color: crimson;
+}
+
+.nav-bar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-bar .menu li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.nav-bar .menu li a:hover {
+    color: crimson;
+}
+
+
+/* home section styling */
+
+.home-section {
+    display: flex;
+    background-size: cover;
+    font-family: 'Ubuntu' sans-serif;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../images/banner.jpeg") no-repeat center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+}
+
+.home-section .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home-section .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home-section .home-content .text-2 {
+    font-size: 75px;
+    margin-left: -3px;
+    font-weight: 600;
+}
+
+.home-section .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home-section .home-content .text-3 span {
+    color: crimson;
+    font-weight: 500;
+}
+
+
+/* .header-section {
+    padding: 0px;
+} */
